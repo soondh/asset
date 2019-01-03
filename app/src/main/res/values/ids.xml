@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="iv_adapter_item_img"/>
+    <item type="id" name="expandable_text"/>
+    <item type="id" name="expand_collapse"/>
+    <item type="id" name="iv_img_view"/>
+    <item type="id" name="viewpager_inner"/>
+
+    <item name="album_image_load_tag" type="id"/>
+
+</resources>

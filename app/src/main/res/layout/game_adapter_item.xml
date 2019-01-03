@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
+
+    <TextView
+        android:id="@+id/tv_sort_number"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#686868"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/tv_sort_number"
+        android:layout_toRightOf="@+id/tv_sort_number"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_game_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/game_name"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_game_cName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/game_cName"
+            android:textColor="#686868"
+            android:textSize="11sp" />
+        <TextView
+            android:id="@+id/tv_game_jName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_jName"
+            android:textColor="#686868"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_game_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_user"
+            android:textColor="#686868"
+            android:textSize="11sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_hide_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_hide_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_game_departmentUse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/game_departmentUse"
+                android:textColor="#686868"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_game_publisher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/game_publisher"
+                android:textColor="#686868"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_game_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/game_code"
+                android:textColor="#686868"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_game_department_own"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/game_department_own"
+                android:textColor="#686868"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_game_location"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="@string/game_adress"
+                android:textColor="#686868"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_game_label"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="@string/game_label"
+                android:textColor="#686868"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_game_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_status"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="#5bc4be"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/main_line"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

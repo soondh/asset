@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main">
+        <item>@string/news</item>
+        <item>@string/ranks</item>
+    </string-array>
+    <integer-array name="main_icon">
+        <item>@drawable/tab_news_selector</item>
+        <item>@drawable/tab_mine_selector</item>
+    </integer-array>
+
+    <string-array name="game_search">
+        <item>@string/doc</item>
+        <item>@string/game</item>
+        <item>@string/club</item>
+    </string-array>
+
+    <string-array name="user_title">
+        <item>@string/dynamic</item>
+        <item>@string/doc</item>
+        <item>@string/circle</item>
+        <item>@string/club</item>
+    </string-array>
+    <string-array name="user_title_nodoc">
+        <item>@string/dynamic</item>
+        <item>@string/circle</item>
+        <item>@string/club</item>
+    </string-array>
+    <string-array name="circle_title">
+        <item>@string/attent_topic</item>
+        <item>@string/comprehensive_topic</item>
+        <item>@string/same_city_topic</item>
+        <item>@string/club_topic</item>
+    </string-array>
+    <string-array name="avatar_person">
+        <item>@string/take_a_photo</item>
+        <item>@string/album</item>
+    </string-array>
+    <string-array name="sex_person">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+    <string-array name="quit_club">
+        <item>@string/quit_club</item>
+    </string-array>
+    <string-array name="club_master_control">
+        <item>@string/club_master_close_club</item>
+        <item>@string/club_master_change_club</item>
+    </string-array>
+    <string-array name="message">
+        <item>@string/private_chat</item>
+        <item>@string/notify</item>
+    </string-array>
+
+    <string-array name="game_title">
+        <item>@string/dev</item>
+        <item>@string/dis</item>
+        <item>@string/custom</item>
+    </string-array>
+
+</resources>

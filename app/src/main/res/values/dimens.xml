@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--标题栏相关-->
+<!--    <dimen name="title_img_height">15dp</dimen>-->
+    <dimen name="title_left_text_size">15dp</dimen>
+    <dimen name="title_center_text_size">19sp</dimen>
+    <dimen name="title_center_margin">70dp</dimen>
+
+    <dimen name="bga_pp_size_delete_padding">2dp</dimen>
+    <dimen name="hint_text_view_height">40dip</dimen>
+
+    <dimen name="album_sp_14">14sp</dimen>
+    <dimen name="album_sp_16">16sp</dimen>
+    <dimen name="album_sp_18">18sp</dimen>
+    <dimen name="album_sp_20">20sp</dimen>
+
+    <dimen name="album_dp_1">1dp</dimen>
+    <dimen name="album_dp_2">2dp</dimen>
+    <dimen name="album_dp_4">4dp</dimen>
+    <dimen name="album_dp_6">6dp</dimen>
+    <dimen name="album_dp_10">10dp</dimen>
+    <dimen name="album_dp_15">15dp</dimen>
+    <dimen name="album_dp_50">50dp</dimen>
+    <dimen name="album_dp_80">80dp</dimen>
+    <dimen name="album_dp_100">100dp</dimen>
+    <dimen name="album_dp_200">200dp</dimen>
+    <dimen name="common_safe_margin">12dip</dimen>
+
+</resources>

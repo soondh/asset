@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
+
+    <TextView
+        android:id="@+id/tv_sort_number"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#686868"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_book_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/tv_sort_number"
+        android:layout_toRightOf="@+id/tv_sort_number"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_book_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/book_name"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_book_department"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/book_department"
+            android:textColor="#686868"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_book_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/book_user"
+            android:textColor="#686868"
+            android:textSize="11sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_hide_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_hide_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_book_isbn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/book_isbn"
+                android:textColor="#686868"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_book_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/book_code"
+                android:textColor="#686868"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_book_department_own"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/book_department_own"
+                android:textColor="#686868"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_book_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/book_status"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="#5bc4be"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/main_line"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

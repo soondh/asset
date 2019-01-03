@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 平台名称 -->
+
+    <string name="qq_key">1106622835</string>
+    <string name="qq_secret">lPV5A1RUuyipB8rt</string>
+    <string name="sina_key">3275786001</string>
+    <string name="sina_re_url">http://zhuoyou.sanguosha.com/weibo/OAuth</string>
+    <string name="sina_secret">80bf5545c0cd822dc4daf2886afff9c</string>
+    <string name="uMeng_app_dev_key">5a6acef98f4a9d0a8e000090</string>
+    <string name="uMeng_app_key">5a6ace94f43e487fdc0000d0</string>
+    <string name="uMeng_app_bundle_id"> </string>
+    <string name="weChat_key">wx7e80d07588915c72</string>
+    <string name="weChat_secret">ab43fbf728496041a031cd0ac0b28b3e</string>
+
+
+    <!-- 测试版 -->
+    <string name="weChat_dev_key">wx057ac48ff5ab702c</string>
+    <string name="weChat_dev_secret">5f890f9bcaed531d9de1c94b14f4e58c</string>
+
+
+
+    <!-- 阿里百川-->
+    <string name="alibaba_IM_key">24605732</string>
+</resources>

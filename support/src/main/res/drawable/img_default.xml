@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/main_line"
+        >
+        <shape
+            android:shape="rectangle"
+            android:dither="true">
+        </shape>
+    </item>
+
+    <item
+        android:top="15dp"
+        android:bottom="15dp"
+        android:left="40dp"
+        android:right="40dp"
+        >
+        <bitmap android:src="@drawable/ic_img_default"/>
+    </item>
+</layer-list>

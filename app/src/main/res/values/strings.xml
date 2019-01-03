@@ -1,0 +1,501 @@
+<resources>
+    <string name="app_name">YokaStore</string>
+
+    <string name="news">资产</string>
+    <string name="mine">设置</string>
+    <string name="circle">圈子</string>
+    <string name="club">俱乐部</string>
+    <string name="ranks">设置</string>
+    <string name="books">书籍信息</string>
+    <string name="games">桌游信息</string>
+
+    <!--设备列表-->
+    <string name="all_rank">全部状态</string>
+    <string name="all_status">全部状态</string>
+    <string name="all_os">全部系统</string>
+    <string name="select_os_iOS">   iOS  </string>
+    <string name="select_os_Android"> Android</string>
+    <string name="any_device_type">全部类型</string>
+    <string name="select_device_phone">手机</string>
+    <string name="select_device_tablet">平板</string>
+    <string name="select_status_avaliable">空闲</string>
+    <string name="select_status_unavailable">占用</string>
+    <string name="tip_no_result">没有结果</string>
+
+    <string name="borrow_device">借用设备</string>
+    <string name="borrow_device_id">设备ID</string>
+    <string name="borrow_device_name">设备名称</string>
+    <string name="borrow_device_pre_user">当前使用者</string>
+    <string name="borrow_device_pre_time">借出时间</string>
+    <string name="borrow_device_status">设备状态</string>
+    <string name="borrow_device_department">借用部门</string>
+    <string name="borrow_device_user">申请人</string>
+    <string name="borrow_device_input_hint">申请人姓名(必填)</string>
+    <string name="borrow_device_sure">确认</string>
+    <string name="device_id_is_wrong">设备ID错误</string>
+
+    <string name="book_name">书籍名称</string>
+    <string name="book_department">所属部门</string>
+    <string name="book_user">用户</string>
+    <string name="book_status">状态</string>
+
+    <string name="device_name">设备名称</string>
+    <string name="device_osname">操作系统</string>
+    <string name="device_usr">用户</string>
+    <string name="device_status">状态</string>
+
+    <!--借用状态-->
+    <string name="status_available">空闲</string>
+    <string name="status_unavailable">占用</string>
+
+    <string name="book_all_status">全部状态</string>
+    <string name="book_select_status_one">空闲</string>
+    <string name="book_select_status_two">占用</string>
+    <string name="book_all_department">所属部门</string>
+    <string name="book_all_type">所有类型</string>
+    <string name="book_select_type_one">常驻</string>
+    <string name="book_select_type_two">公共</string>
+
+    <!--借用书籍-->
+    <string name="borrow_book">借用书籍</string>
+    <string name="borrow_book_id">书籍ID</string>
+    <string name="borrow_book_name">书籍名称</string>
+    <string name="borrow_book_pre_user">当前使用者</string>
+    <string name="borrow_book_pre_time">借出时间</string>
+    <string name="borrow_book_status">设备状态</string>
+    <string name="borrow_book_department">借用部门</string>
+    <string name="borrow_book_user">申请人</string>
+    <string name="borrow_book_input_hint">申请人姓名(必填)</string>
+    <string name="borrow_book_sure">确认</string>
+    <string name="borrow_book_sure_borrow">确认借用</string>
+    <string name="borrow_book_sure_return">确认归还</string>
+    <string name="book_id_is_wrong">书籍ID错误</string>
+    <string name="please_input_user_name">请输入申请人姓名</string>
+    <string name="please_select_department">请选择部门</string>
+    <string name="toast_user_name_char_illegal">输入错误</string>
+
+    <!--借用桌游-->
+    <string name="borrow_game">借用书籍</string>
+    <string name="borrow_game_id">桌游ID</string>
+    <string name="borrow_game_name">桌游名称</string>
+    <string name="borrow_game_pre_user">当前使用者</string>
+    <string name="borrow_game_pre_time">借出时间</string>
+    <string name="borrow_game_status">桌游状态</string>
+    <string name="borrow_game_department">借用部门</string>
+    <string name="borrow_game_user">申请人</string>
+    <string name="borrow_game_input_hint">申请人姓名(必填)</string>
+    <string name="borrow_game_sure">确认</string>
+    <string name="borrow_game_sure_borrow">确认借用</string>
+    <string name="borrow_game_sure_return">确认归还</string>
+    <string name="game_id_is_wrong">桌游ID错误</string>
+
+    <string name="book_isbn">ISBN：</string>
+    <string name="book_code">资产编码：</string>
+    <string name="book_department_own">所属部门：</string>
+
+    <string name="game_cName">中文名:</string>
+    <string name="game_jName">日文名:</string>
+    <string name="game_publisher">出版社：</string>
+    <string name="game_code">资产编码：</string>
+    <string name="game_department_own">所属部门：</string>
+    <string name="game_adress">归属地：</string>
+    <string name="game_label">标签：</string>
+    <string name="game_msg">备注：</string>
+
+    <string name="game_name">桌游名称</string>
+    <string name="game_location">归属地</string>
+    <string name="game_departmentUse">借用部门：</string>
+    <string name="game_user">用户</string>
+    <string name="game_status">状态</string>
+
+    <string name="game_all_status">全部状态</string>
+    <string name="game_select_status_one">空闲</string>
+    <string name="game_select_status_two">占用</string>
+    <string name="game_all_location">归属地</string>
+    <string name="game_all_language">所有语言</string>
+    <string name="game_select_language_one">中文</string>
+    <string name="game_select_language_two">英文</string>
+    <string name="game_select_language_three">其他</string>
+
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+    <string name="about">关于</string>
+    <string name="register">注册</string>
+    <string name="logout">退出</string>
+    <string name="please_input_phone">请输入手机号</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="please_input_username">请输入账号</string>
+    <string name="regist_login">已注册直接登录</string>
+    <string name="login">登录</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="nickname">昵称</string>
+    <string name="net_error">网络异常</string>
+    <string name="ok">确定</string>
+    <string name="finish">完成</string>
+    <!--title的高度-->
+    <dimen name="title_bar_height">44dp</dimen>
+
+    <!--登录，注册，忘记密码-->
+    <string name="hint_text_verifi_code">请输入验证码</string>
+    <string name="button_text_send_verifi_code">获取验证码</string>
+    <string name="button_text_had_send_verifi_code">重新获取</string>
+    <string name="regist_count">注册账号</string>
+    <string name="regist_hint_text_password">请设置密码（6-16位字母数字组合）</string>
+    <string name="regist_hint_review_password">确认密码</string>
+    <string name="regist_hint_text_new_password">请设置新密码（6-16位字母数字组合）</string>
+    <string name="regist_hint_review_new_password">再次输入新密码</string>
+    <string name="regist_hint_text_orginal_password">输入原密码</string>
+    <string name="toast_need_correct_mobile">请输入正确的手机号</string>
+    <string name="set_password">设置密码</string>
+    <string name="third_login">第三方登录</string>
+    <string name="qq">QQ</string>
+    <string name="weixin">微信</string>
+    <string name="weibo">微博</string>
+    <string name="user_protocol">用户协议</string>
+    <string name="toast_password_is_null">密码不能为空</string>
+    <string name="upload_avatar">上传头像</string>
+    <string name="perfect_personal_info_tip">完善个人资料，方便大家认识你</string>
+    <string name="please_input_nickname">请输入昵称</string>
+    <string name="toast_nickname_is_null">昵称不能为空</string>
+    <string name="toast_nickname_cant_be_null">昵称不可为空!</string>
+    <string name="toast_nickname_length_illegal">昵称为2-10个字符</string>
+    <string name="toast_nickname_char_illegal">不支持特殊符号作为昵称</string>
+    <string name="toast_nickname_emoji_illegal">不支持表情作为昵称</string>
+    <string name="toast_nickname_has_space_illegal">昵称中不能包含空格</string>
+    <string name="perfect_personal_info">完善资料</string>
+    <string name="jump_out">跳过</string>
+
+    <!--我的页面-->
+    <string name="setting_and_help">设置与帮助</string>
+    <string name="update_password">修改密码</string>
+    <string name="focus">关注</string>
+    <string name="fans">粉丝</string>
+    <string name="sex">性别</string>
+    <string name="at_least_two_characters">（至少2字符）</string>
+    <string name="geographic_location">地理位置</string>
+    <string name="personal_profile">个人简介</string>
+    <string name="hint_please_input_personal_profile">请输入您的个性签名</string>
+    <string name="personal_information">个人资料</string>
+    <string name="my_focus_game">关注的桌游</string>
+    <string name="my_daily_plan">每日任务</string>
+    <string name="score_shop">积分商城</string>
+    <string name="my_game_circle">我的桌游圈</string>
+    <string name="my_collect_news">收藏的资讯</string>
+    <string name="not_login">未登录</string>
+    <string name="login_know_you">登录让更多的人认识你</string>
+    <string name="take_a_photo">拍照</string>
+    <string name="album">相册</string>
+    <string name="focus_together">相互关注</string>
+    <string name="cancel_focus">取消关注</string>
+    <string name="add_focus">+关注</string>
+    <string name="press_again_quit">亲，再按一次就退出咯~</string>
+    <string name="change_pwd_success">修改密码成功</string>
+    <string name="net_not_connect">网络未连接</string>
+    <string name="collect_news">收藏的资讯</string>
+    <string name="my_circle_game">我的桌游圈</string>
+    <string name="common">评论</string>
+    <string name="my_fans">我的粉丝</string>
+    <string name="my_attention">我的关注</string>
+    <string name="save">保存</string>
+    <string name="perfect_personal_info_success">完善资料成功</string>
+    <string name="change_success">修改成功</string>
+    <string name="change_failed">修改失败</string>
+    <string name="private_content">个人简介</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="avatar">头像</string>
+    <string name="already_read">浏览</string>
+    <string name="login_out">退出登录</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="no_people_attention">还没有人关注你</string>
+    <string name="no_focus">尚未关注</string>
+    <string name="no_publish_anything">未发布过动态</string>
+    <string name="no_circle">尚无动态</string>
+    <string name="no_collect">尚未收藏</string>
+    <string name="no_content">尚无内容</string>
+    <string name="no_attention">尚无关注</string>
+    <string name="attention_games">关注的桌游</string>
+    <string name="attent_success">关注成功</string>
+    <string name="cancel_success">取消成功</string>
+    <string name="toast_content_is_over_twenty">个性签名不能超过30个字符</string>
+    <string name="all">全部</string>
+    <string name="detail">详情</string>
+    <string name="score">评分</string>
+    <string name="dev">开发版</string>
+    <string name="dis">正式版</string>
+    <string name="custom">其他</string>>
+
+    <!--桌游排行榜-->
+    <string name="game_recommend">桌游推荐</string>
+    <string name="any_number_people">任意人数</string>
+    <string name="select_people_one">1～4人</string>
+    <string name="select_people_two">5～8人</string>
+    <string name="select_people_three">8～12人</string>
+    <string name="select_people_four">12人以上</string>
+    <string name="no_limit_time">不限时间</string>
+    <string name="select_time_one">0～30分钟</string>
+    <string name="select_time_two">30～60分钟</string>
+    <string name="select_time_three">60～120分钟</string>
+    <string name="select_time_four">2～3小时</string>
+    <string name="select_time_five">3小时以上</string>
+    <string name="card_atlas">卡牌图集</string>
+    <string name="transtion_image">transtionImage</string>
+    <string name="game_recom_doc">桌游攻略</string>
+    <string name="attent_game_recommend_other_game">关注这个桌游的人还关注了</string>
+    <string name="attention">关注</string>
+    <string name="already_attention">已关注</string>
+    <string name="score_people_number">评分人数</string>
+    <string name="search">搜索</string>
+    <string name="input_search_content">输入搜索内容</string>
+    <string name="doc">文章</string>
+    <string name="game">桌游</string>
+    <string name="comment_detail">评论详情</string>
+    <string name="hint_comment_edit">发表评论...</string>
+    <string name="toast_comment_cant_be_null">评论不能为空～</string>
+    <string name="tip_data_error">数据异常</string>
+
+    <string name="sort_by_heat">按热度排序</string>
+    <string name="sort_by_time">按时间排序</string>
+    <string name="sort_by_heat_short">按热度</string>
+    <string name="sort_by_time_short">按时间</string>
+    <string name="hot_search">热门搜索</string>
+    <string name="history_search">历史搜索</string>
+    <string name="report">举报</string>
+    <string name="please_select_report_reason">请选择投诉的原因：</string>
+    <string name="pornography_obscenity">色情、淫秽</string>
+    <string name="sure_report">确认投诉</string>
+    <string name="reactionary_political">反动、政治</string>
+    <string name="advertising_marketing">广告营销</string>
+    <string name="malicious_attacks_and_abuses">恶意攻击与谩骂</string>
+    <string name="please_check_report_reason">请选择投诉理由</string>
+    <string name="report_success">举报成功</string>
+    <string name="input_cannot_null">输入不能为空哦！</string>
+    <string name="no_result">无结果</string>
+    <string name="no_dynamic_content">暂无动态</string>
+    <string name="publish">发表</string>
+    <string name="tip_comment_is_null">评论不能为空</string>
+    <string name="tip_evaluate_is_null">评价不能为空</string>
+    <string name="tip_comment_is_illegal">评论最少要2个字</string>
+    <string name="tip_comment_is_need_give_score">评分后才能评论</string>
+    <string name="delete">删除</string>
+    <string name="look_more_doc">查看更多攻略</string>
+    <string name="talk">聊天</string>
+    <string name="dynamic">动态</string>
+
+    <string name="other_attention">他的关注</string>
+    <string name="other_fans">他的粉丝</string>
+    <string name="all_docs">全部攻略</string>
+
+    <string name="tip_no_join_club">未加入俱乐部</string>
+    <string name="attent_topic">关注话题</string>
+    <string name="comprehensive_topic">综合话题</string>
+    <string name="same_city_topic">同城话题</string>
+    <string name="club_topic">俱乐部话题</string>
+    <string name="not_in_club">没有加入俱乐部</string>
+    <string name="no_attention_dynamic_content">亲 ~ 关注的人尚无动态呢</string>
+    <string name="login_to_get_attention">登录后查看动态</string>
+    <string name="points">分</string>
+    <string name="comment_success">评论成功</string>
+    <string name="reply_success">回复成功</string>
+    <string name="collect_success">收藏成功</string>
+    <string name="cancel_collect_success">取消收藏成功</string>
+
+    <string name="no_comments">暂无评论</string>
+    <string name="already_loaded_all_data">已加载全部</string>
+    <string name="camera_photo_path">photo/</string>
+    <string name="reply">回复  </string>
+    <string name="publish_1">发布</string>
+    <string name="publish_topic">发布话题</string>
+    <string name="publish_topic_hint">分享你的桌游经验或者分享玩桌游时候的快乐，找到与你志同道合的桌游...</string>
+    <string name="game_search">所属游戏</string>
+    <string name="input_search_game">搜索相关桌游</string>
+    <string name="hot_game">热门桌游</string>
+    <string name="find_club_china">找俱乐部</string>
+    <string name="find_club_english">Look for a club</string>
+    <string name="create_club_china">创建俱乐部</string>
+    <string name="create_club_english">Create a club</string>
+    <string name="quit_club">退出俱乐部</string>
+    <string name="select_icon">选择徽章</string>
+
+    <string name="person_application">人员审核</string>
+    <string name="mine_create_club">我的俱乐部</string>
+    <string name="mime_recommend_club">推荐俱乐部</string>
+
+    <string name="please_input_club_name">请输入俱乐部名称</string>
+    <string name="please_choose_club_icon">请挑选一个俱乐部徽章</string>
+    <string name="please_input_club_content">请输入俱乐部宣言</string>
+    <string name="please_choose_game_or_address">主打游戏和地址请至少选择一个</string>
+    <string name="choose_main_game">请选择主打桌游</string>
+    <string name="club_address">俱乐部坐标</string>
+    <string name="choose_club_icon">俱乐部徽章</string>
+    <string name="find_club">找俱乐部</string>
+    <string name="club_name">俱乐部名称</string>
+    <string name="club_name_input_hint">10字以内(必填)</string>
+    <string name="club_phone">手机号</string>
+    <string name="please_inout_phone_hint">请输入手机号(必填)</string>
+    <string name="club_main_game">主打桌游</string>
+    <string name="club_address_layout">地理位置</string>
+    <string name="club_member_all_count">俱乐部成员数量</string>
+    <string name="club_content">俱乐部宣言</string>
+    <string name="club_member_all">全部</string>
+    <string name="club_create_time">创建时间</string>
+    <string name="club_please_join_in">申请加入</string>
+    <string name="club_go_into_im">进入群聊</string>
+    <string name="club_main_go_into_im">进入聊天</string>
+    <string name="club_master">会长</string>
+    <string name="club_member">会员</string>
+    <string name="club_create_content_hint">300字以内</string>
+    <string name="club_create_sure">确认创建</string>
+    <string name="club_begin_search">开始寻找</string>
+    <string name="club_search_result_tips">以下是符合您的桌游</string>
+    <string name="application_club">申请加入俱乐部</string>
+    <string name="accept_application">接受申请</string>
+    <string name="application_enter">申请加入:</string>
+    <string name="cancel_application">拒绝加入</string>
+    <string name="application_success">审核通过</string>
+    <string name="application_failed">拒绝成功</string>
+    <string name="no_people_application">暂无人员申请</string>
+    <string name="club_joining">申请中...</string>
+    <string name="club_master_close_club">解散俱乐部</string>
+    <string name="club_master_change_club">群资料更改</string>
+    <string name="club_search_club_null_result">暂无相关俱乐部</string>
+    <string name="club_search_go_to_create">前去创建</string>
+
+
+    <string name="topic_detail">话题详情</string>
+
+    <string name="album_not_found_image">没有发现图片文件</string>
+    <string name="album_not_found_video">没有发现视频文件</string>
+    <string name="album_not_found_album">没有发现媒体文件</string>
+
+    <string name="album_camera_image_capture">拍照片</string>
+    <string name="album_camera_video_capture">录视频</string>
+
+    <string name="album_title">媒体专辑</string>
+    <string name="album_all_images">所有图片</string>
+    <string name="album_all_videos">所有视频</string>
+    <string name="album_all_images_videos">所有图片/视频</string>
+
+    <string name="album_check_image_little">你还没有选择图片</string>
+    <string name="album_check_video_little">你还没有选择视频</string>
+    <string name="album_check_album_little">你还没有选择媒体文件</string>
+    <string name="album_menu_finish">完成</string>
+    <string name="album_check">选择</string>
+
+    <string name="album_menu_camera_image">拍照片</string>
+    <string name="album_menu_camera_video">录视频</string>
+
+    <string name="album_title_permission_failed">没有权限</string>
+    <string name="album_permission_storage_failed_hint">获取存储权限失败，请在使用之前在系统设置中授权。</string>
+    <string name="album_permission_camera_image_failed_hint">获取相机、存储权限失败，请在使用之前在系统设置中授权。</string>
+    <string name="album_permission_camera_video_failed_hint">获取相机、存储、录音权限失败，请在使用之前在系统设置中授权。</string>
+    <string name="album_dialog_sure">好的</string>
+
+    <plurals name="album_check_image_limit">
+        <item quantity="other">您只能选择%1$d张图片</item>
+    </plurals>
+
+    <plurals name="album_check_image_limit_camera">
+        <item quantity="other">您只能选择%1$d张图片，请反选后再操作</item>
+    </plurals>
+    <plurals name="album_check_video_limit">
+        <item quantity="other">您只能选择%1$d个视频</item>
+    </plurals>
+
+    <plurals name="album_check_video_limit_camera">
+        <item quantity="other">您只能选择%1$d个视频，请反选后再操作</item>
+    </plurals>
+    <plurals name="album_check_album_limit">
+        <item quantity="other">您只能选择%1$d个文件</item>
+    </plurals>
+
+    <plurals name="album_check_album_limit_camera">
+        <item quantity="other">您只能选择%1$d个文件，请反选后再操作</item>
+    </plurals>
+
+    <string name="album_item_unavailable">不可用</string>
+    <string name="album_take_file_unavailable">不可用的文件，请重试</string>
+
+    <string name="club_modify">资料修改</string>
+    <string name="club_modify_success">群资料修改成功</string>
+    <string name="input_apply_info">填写申请信息</string>
+    <string name="hint_what_you_say">你有什么想说的</string>
+    <string name="apply">申请</string>
+    <string name="apply_success">申请成功</string>
+    <string name="bind_phone">绑定手机号</string>
+    <string name="relate_game">相关桌游</string>
+
+    <string name="club_close_sure">确认解散</string>
+    <string name="club_close_first_line_tips">解散俱乐部前请检验创建俱乐部时填写的手机号</string>
+    <string name="club_close_second_line_tips">提示:</string>
+
+    <string name="toast_only_can_take_photo">只能拍照哦</string>
+    <string name="private_chat">私聊</string>
+    <string name="notify">通知</string>
+    <string name="demo_forward">转发</string>
+    <string name="demo_delete">删除消息</string>
+    <string name="demo_copy">复制</string>
+    <string name="mark_all_read">全部已读</string>
+    <string name="zan_for_you">点赞了你:</string>
+    <string name="attent_for_you">关注了你</string>
+    <string name="reply_for_you">回复了你:</string>
+    <string name="comment_for_your_topic">评论了你的圈子</string>
+    <string name="zan_for_your_topic">赞了你的圈子</string>
+    <string name="zan_for_your_comment">赞了你的评论</string>
+    <string name="reply_for_your_comment">回复了你的评论</string>
+    <string name="apply_for_club_notification">申请加入***俱乐部</string>
+    <string name="join_club_success_notification">已加入***俱乐部</string>
+    <string name="left_club_already_notification">已被踢出***俱乐部</string>
+    <string name="zan_for_your_news">赞了你发的资讯</string>
+    <string name="comment_for_your_news">评论了你发的资讯</string>
+    <string name="look_all">点击查看</string>
+    <string name="account_login_error">该账号已在其他手机登录，如非本人请尽快修改密码</string>
+    <string name="message">消息</string>
+    <string name="token_unuse">用户信息失效</string>
+    <string name="guide_join_app_right_now">立即加入</string>
+    <string name="bind_phone_input_password">设置密码（6-16个英文数字组合）</string>
+    <string name="please_input_correct_password">请输入正确的密码</string>
+    <string name="bind_phone_success">绑定成功</string>
+    <string name="verify_code_send">验证码已发送</string>
+    <string name="quit_club_success">退出俱乐部成功</string>
+    <string name="toast_club_name_char_illegal">不支持特殊符号作为俱乐部名称</string>
+    <string name="toast_club_name_char_is_integer">不支持纯数字作为俱乐部名称</string>
+    <string name="toast_club_name_length_illegal">俱乐部名称长度为2-10个字</string>
+    <string name="close_club_success">解散俱乐部成功</string>
+    <string name="club_already_closed">该俱乐部已被解散</string>
+    <string name="create_club_success">创建俱乐部成功</string>
+    <string name="no_doc">暂无文章</string>
+    <string name="tip_news_can_not_visit">资讯无法访问</string>
+    <string name="tip_no_shop_content">商品还在精心挑选\n大量好玩桌游等你来换</string>
+    <string name="promotion_rules">提升规则</string>
+    <string name="my_points">我的经验 :</string>
+    <string name="my_daily_login">每日登录</string>
+    <string name="my_daily_login_detail">每天登录即可获得经验，积分</string>
+    <string name="already_done">已完成</string>
+    <string name="go_done">去完成</string>
+    <string name="publish_circle_topic">发布圈子话题</string>
+    <string name="publish_circle_topic_detail">最多获得4经验，积分</string>
+    <string name="publish_circle_topic_detail_two">最多获得2经验，积分</string>
+    <string name="comment_doc">评论文章</string>
+    <string name="comment_games">评论桌游</string>
+    <string name="margin_max_left">距离升级还有</string>
+    <string name="margin_max_right">点经验</string>
+    <string name="login_to_look_gride">登录后查看经验积分信息</string>
+    <string name="click_login">点击登录</string>
+    <string name="official_certification">官方认证:</string>
+    <string name="write_team">撰稿团队</string>
+    <string name="official_admin">官方管理员</string>
+    <string name="game_simple">桌游从业者</string>
+    <string name="rules_of_promotion">提升规则</string>
+
+    <string name="dialog_notify_positive">确认</string>
+    <string name="dialog_notify_negative">取消</string>
+
+    <string name="confirm_download">确认下载</string>
+    <string name="have_new_version">有新版本，快去尝鲜吧</string>
+    <string name="my_daily_publish_detail">发布圈子可获得2点经验,积分</string>
+    <string name="my_daily_doc_detail">评论文章可获得1点经验,积分</string>
+    <string name="my_daily_game_detail">评论桌游可获得2点经验,积分</string>
+    <string name="push_transmission_data">收到一条透传测试消息</string>
+
+</resources>

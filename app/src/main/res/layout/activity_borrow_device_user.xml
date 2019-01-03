@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp">
+    <EditText
+        android:id="@+id/borrow_device_user_et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|center_vertical"
+        android:textSize="16sp"
+        android:paddingRight="15dp"
+        android:background="@null"
+        android:textCursorDrawable="@null"/>
+    <TextView
+        android:id="@+id/borrow_device_user_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/borrow_device_user"
+        android:textColor="#252525"
+        android:textSize="16sp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/borrow_device_user_hint_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/borrow_device_input_hint"
+        android:textColorHint="#a4a4a4"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"/>
+
+</RelativeLayout>

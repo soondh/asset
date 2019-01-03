@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <youkagames.com.yokaasser.view.TitleBar
+        android:id="@+id/activity_borrow_device_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:id="@+id/borrow_device_id"
+        layout="@layout/activity_borrow_device_device_id" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/main_line" />
+
+    <include
+        android:id="@+id/borrow_device_name"
+        layout="@layout/activity_borrow_device_device_name" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/main_line" />
+
+    <include
+        android:id="@+id/borrow_device_pre_user"
+        layout="@layout/activity_borrow_device_pre_user" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/main_line" />
+
+    <include
+        android:id="@+id/borrow_device_pre_date"
+        layout="@layout/activity_borrow_device_pre_date" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/main_line" />
+
+    <include
+        android:id="@+id/borrow_device_status"
+        layout="@layout/activity_borrow_device_status" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/main_line" />
+
+    <include
+        android:id="@+id/borrow_device_department"
+        layout="@layout/activity_borrow_device_device_department" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/main_line" />
+
+    <include
+        android:id="@+id/borrow_device_user_name"
+        layout="@layout/activity_borrow_device_user" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/main_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/borrow_device_bt"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/main_color"
+            android:text="@string/borrow_device_sure"
+            android:textSize="18sp"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+</LinearLayout>
